@@ -1,6 +1,5 @@
 <template>
   <div id="todo-list">
-    <h4>TODO List Component</h4>
     <form @submit.prevent="enviarFormulario">
       <div class="form-group">
         <input type="text" ref="name" />

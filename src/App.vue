@@ -4,11 +4,14 @@ import Todolist from "./components/Todolist.vue";
 </script>
 
 <template>
-  <div>
-    <Header msg="Todo List" />
+  <div class="container">
+    <Header msg="TODO Project" />
     <Todolist />
   </div>
 </template>
 
 <style scoped>
+.container{
+  
+}
 </style>
